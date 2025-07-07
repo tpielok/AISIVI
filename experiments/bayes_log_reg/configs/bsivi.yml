@@ -1,0 +1,21 @@
+target_score: "LRwaveform"
+
+train:
+    net: "fcn"
+    outer_loop: 1
+    num_epochs: 10000
+    batchsize: 128
+    batchsize_inner: 9182
+    num_inner_batches: 10
+    sto_batchsize: 400
+    lr: 0.001
+    inp_dim: 10
+    h_dim: 128
+    dim: 22
+    annealing: False  
+    alpha: 1.0    
+    gamma: 0.01
+    gamma_step: 5000  
+sampling:
+    visual_time: 500
+    num: 1000

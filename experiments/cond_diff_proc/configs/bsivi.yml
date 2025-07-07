@@ -1,0 +1,30 @@
+target_score: "Langevin_post"
+
+langevin:
+    num_interval: 100
+    num_obs: 20
+    beta: 10
+    T: 1.0
+    sigma: 0.1
+
+train:
+    net: "fcn"
+    outer_loop: 1
+    num_epochs: 10000
+    batchsize: 128
+    batchsize_inner: 4096
+    num_inner_batches: 1
+    sto_batchsize: 400
+    gamma: 0.9
+    gamma_step: 10000
+    lr: 0.002
+    inp_dim: 100
+    h_dim: 128
+    dim: 100
+    annealing: False  
+    alpha: 0.1 
+    
+sampling:
+    visual_time: 100
+    sampling_time: 500
+    num: 1000
