@@ -1,7 +1,7 @@
 # AISIVI Revisiting Unbiased Implicit Variational Inference
 
 [![Poster PDF](https://img.shields.io/badge/poster-download-blue)](./poster.pdf)
-[![ArXiv](https://img.shields.io/badge/arXiv-paper-green)](https://[arxiv.org/abs/XXXX.XXXXX](https://www.arxiv.org/abs/2506.03839))
+[![ArXiv](https://img.shields.io/badge/arXiv-paper-green)](https://arxiv.org/abs/2506.03839)
 
 This repository contains the code, experiments, and poster for our ICML 2025 contribution **"Revisiting Unbiased Implicit Variational Inference"**, where we address fundamental challenges in training semi-implicit variational distributions via efficient and theoretically justified score estimation.
 
