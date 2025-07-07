@@ -22,5 +22,5 @@ Previous solutions like **UIVI** rely on inner-loop MCMC - expensive and brittle
 We propose **AISIVI**, an efficient, path-gradient-compatible alternative for training SIVI objectives using:
 
 - ✅ **Unbiased and consistent score estimation** via **importance sampling**
-- ✅ A learned **reverse conditional** proposal \(\tau(\epsilon|z)\)
+- ✅ A learned **reverse conditional** proposal $\tau(\epsilon|z)$
 - ✅ **Low bias & low variance** through proper proposal training
