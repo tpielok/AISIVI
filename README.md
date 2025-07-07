@@ -1,4 +1,4 @@
-# AISIVI Revisiting Unbiased Implicit Variational Inference
+# AISIVI - Revisiting Unbiased Implicit Variational Inference
 
 [![Poster PDF](https://img.shields.io/badge/poster-download-blue)](./poster.pdf)
 [![ArXiv](https://img.shields.io/badge/arXiv-paper-green)](https://arxiv.org/abs/2506.03839)
