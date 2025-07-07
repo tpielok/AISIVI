@@ -10,7 +10,7 @@ This repository contains the code, experiments, and poster for our ICML 2025 con
 ## 🧠 Motivation
 
 **Semi-Implicit Variational Inference (SIVI)** enables expressive variational approximations by defining a marginal
-$q(z) = \mathbb{E}_{\epsilon \sim p(\epsilon)}[q(z|\epsilon)]$
+$q(z) = \mathbb{E}_{\epsilon \sim p(\epsilon)}[q(z|\epsilon)].$
 However, this marginal is **intractable**, making gradient-based optimization of common divergence objectives (e.g., KL) difficult.
 
 Previous solutions like **UIVI** rely on inner-loop MCMC - expensive and brittle in high dimensions.
